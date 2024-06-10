@@ -10,19 +10,19 @@ npx tsc --init <br>
 npm i socket.io express nodemon <br>
 npm i http <br>
 npm i @types/http <br>
-
+---package.json--------
 "watch":"tsc -w", <br>
 "dev": "tsc -b && nodemon dist/index.js" <br>
 ---use to npm run dev instead of node js--- <br>
 
 create dist folder <br>
-src/index.ts
-change directory , 
-configure tsconfig.json > src and outdist ;
+src/index.ts <br>
+change directory ,  <br>
+configure tsconfig.json > src and outdist ; <br>
 
 
-Now on the Client Side
-npm i socket.io-client
+Now on the Client Side <br>
+npm i socket.io-client <br>
 
 First, run the development server:
 
