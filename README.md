@@ -1,21 +1,21 @@
 
 ## Getting Started
 
-Server Side
-backend/index.ts
----- setuping backend----
-npm init  -y
-npx tsc --init
----- using socket.io ----
-npm i socket.io express nodemon
-npm i http
-npm i @types/http
+Server Side <br>
+backend/index.ts <br>
+---- setuping backend---- <br>
+npm init  -y <br>
+npx tsc --init <br>
+---- using socket.io ---- <br>
+npm i socket.io express nodemon <br>
+npm i http <br>
+npm i @types/http <br>
 
-"watch":"tsc -w",
-"dev": "tsc -b && nodemon dist/index.js"
----use to npm run dev instead of node js---
+"watch":"tsc -w", <br>
+"dev": "tsc -b && nodemon dist/index.js" <br>
+---use to npm run dev instead of node js--- <br>
 
-create dist folder
+create dist folder <br>
 src/index.ts
 change directory , 
 configure tsconfig.json > src and outdist ;
